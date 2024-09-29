@@ -1,0 +1,20 @@
+.buttonCont {
+    width: 100%;
+    height: 7vh;
+    background: none;
+    border: none;
+    font-family: 'Arial', sans-serif; /* Choose a similar font */
+    color: #f99e1a; /* Orange color similar to the left text */
+    font-size: 375%; /* Adjust size as needed */
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.836); /* Orange shadow */
+    font-weight: bold; /* Bold text */
+    font-style: italic;
+    transform: scale(1.1, 1.3); /* Stretch the text to mimic 3D scaling */
+    transition: .1s;
+}
+
+.buttonCont:hover {
+    transition: .1s;
+    padding-left: 10%;
+    font-size: 400%;
+}

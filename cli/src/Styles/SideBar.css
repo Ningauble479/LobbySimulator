@@ -1,0 +1,10 @@
+.sidebar {
+    position: fixed; /* Fixed position */
+    left: 0; /* Align to the left side */
+    top: 0; /* Align to the top */
+    bottom: 0; /* Stretch from top to bottom */
+    width: 40vw ; /* Set the width of the sidebar */
+    background-color: #333; /* Sidebar background color */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    padding-top: 20px; /* Padding at the top */
+  }
